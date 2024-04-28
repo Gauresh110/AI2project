@@ -18,7 +18,7 @@ def load_model() -> tf.keras.Sequential:
     model.add(tf.keras.layers.Activation('relu'))
     model.add(tf.keras.layers.MaxPool3D((1,2,2)))
 
-    model.add(tf.keras.layers.tf.keras.layers.TimeDistributed(tf.keras.layers.Flatten()))
+    model.add(tf.keras.layers.TimeDistributed(tf.keras.layers.Flatten()))
 
     model.add(tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(128, kernel_initializer='Orthogonal', return_sequences=True)))
     model.add(tf.keras.layers.Dropout(.5))
