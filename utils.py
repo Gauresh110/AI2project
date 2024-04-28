@@ -1,6 +1,6 @@
 import tensorflow as tf
 from typing import List
-#import cv2
+import cv2
 import os 
 
 vocab = [x for x in "abcdefghijklmnopqrstuvwxyz'?!123456789 "]
