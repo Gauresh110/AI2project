@@ -33,7 +33,7 @@ if options:
         #os.system(f'ffmpeg -i {file_path} -vcodec libx264 test_video.mp4 -y')
 
         # Rendering inside of the app
-        video = open(selected_video, 'rb') 
+        video = open('data', 's2', selected_video, 'rb') 
         video_bytes = video.read() 
         st.video(video_bytes)
 
