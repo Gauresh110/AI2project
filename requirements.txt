@@ -1,9 +1,9 @@
-python
-imageio
-matplotlib
-numpy
-opencv-python
-pandas
+python==3.9.12
+imageio==2.23.0
+matplotlib==3.6.2
+numpy==1.26.4
+opencv-python==4.6.0.66
+pandas==2.2.2
 protobuf==3.19.4
-streamlit
+streamlit==1.33.0
 tensorflow==2.10.1
